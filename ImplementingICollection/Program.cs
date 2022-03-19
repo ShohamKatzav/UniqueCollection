@@ -55,6 +55,9 @@ class Program
                 case "q":
                     endProgram = true;
                     break;
+                default:
+                    Console.WriteLine("Invalid input");
+                    break;
             }
         }
     }
